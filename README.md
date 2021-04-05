@@ -1,7 +1,7 @@
 # TÍTULO DO PROJETO
  Aplicação Web para cálculo de autonomia e custo de energia para veículos elétricos.
  
-`CURSO`
+`CURSO` Tenologia  em  Sistemas para internet    
 
 `DISCIPLINA`
 
