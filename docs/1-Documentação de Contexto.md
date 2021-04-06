@@ -24,9 +24,13 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Devido ao aumento da preocupação com o meio ambiente e na economia de combustivel, uma promessa alternativa são os carros elétricos. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Pelo seu menor emissão de poluentes ao meio ambiente, bem como, no seu beneficio de melhor economia e maior desempenho de autonomia.
+
+Faz necessário uma tecnologia para calcular os custos de desempenho do veículo e sua economia frente aos carros comuns a combustão. 
+
+Auxiliando assim, os possiveis compradores na tomada de decisão para trocar um veiculo a combustão em um carro elétrico.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
