@@ -38,6 +38,20 @@ Auxiliando assim, os possiveis compradores na tomada de decisão para trocar um 
 
 ## Estado da Arte
 
+Em pesquisa realizada encontramos vários sites com foco em explicar o funcionamento de um veículo elétrico, sua autonomia e seu consumo. Em um destes possuía uma calculadora comparativa.  Nos serviços de distribuição digital de aplicativos não encontramos nenhum com foco em cálculo de autonomia, o mais próximo tem como foco encontrar pontos de abastecimento.
+
+Abaixo, lista de sites e aplicativos encontrados no Brasil relacionados a este tema:
+
+•	Texto informativo do Site iCarros: https://www.icarros.com.br/noticias/geral/quanto-custa-carregar-um-carro-eletrico-/28839.html
+
+•	Texto informativo do site Luz Solar: https://luzsolar.com.br/carro-eletrico-x-gasolina/
+
+•	Calculadora para verificar a economia de um veículo elétrico comparado ao de combustão do Site NeoCharge: https://www.neocharge.com.br/calculadora-carro-eletrico
+
+•	Aplicativo brasileiro de Mapa de carregadores na PlayStore: https://play.google.com/store/apps/details?id=com.tupinamba
+
+Os sites informativos, em sua maioria, não eram práticos para auxiliar em uma decisão e os aplicativos, todos são relacionados a pontos de recarga.
+
 ## Público-Alvo
 
 Considerando que os veículos elétricos tem um custo alto, o público-alvo será pessoas da classe média alta. 
