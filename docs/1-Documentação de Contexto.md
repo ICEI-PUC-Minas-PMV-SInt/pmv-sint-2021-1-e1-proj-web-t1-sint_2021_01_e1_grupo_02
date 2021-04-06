@@ -3,16 +3,9 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+Apesar do contínuo aumento de vendas de carros elétricos no país, muitos são os questionamentos levantados pelos consumidores antes de efetuar sua compra. Por exemplo, “Qual seria a autonomia deste modelo de carro?”, ou, “Quais locais possuem eletropostos para fazer a recarga da bateria caso necessário?”, ou até mesmo, “Qual modelo irá me trazer o melhor custo benefício?”. O fato é que, atualmente, não se encontra na *internet* sistemas voltados para responder tais perguntas para os futuros compradores. Por isso, a dúvida pelos carros elétricos, principalmente no Brasil, ainda continua predominando.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Contudo, surge a necessidade de uma aplicação que forneça suporte de informações e comparativos, auxiliando de forma clara, inclusiva e prática, o processo de escolha do comprador.
 
 ## Objetivos
 
