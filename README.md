@@ -17,7 +17,7 @@ Aplicação Web para suporte ao processo de compra de veículos com base em auto
 
 ## Professor
 
-- Fabiano
+- Fabiano Costa Teixeira
 
 # Documentação
 
