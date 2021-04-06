@@ -9,11 +9,11 @@ Aplicação Web para suporte ao processo de compra de veículos com base em auto
 
 ## Integrantes
 
-- Ricardo Alexandre Da Silva
-- Yuri Ribeiro Felipe
 - Paula Cristina De Oliveira
+- Ricardo Alexandre Da Silva
 - Samuel Henrique Figueiredo Fróes
 - Tulio Teodoro De Oliveira
+- Yuri Ribeiro Felipe
 
 ## Professor
 
