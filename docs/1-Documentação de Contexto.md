@@ -1,6 +1,6 @@
 # Introdução
 
- ##Contexto
+ Contexto
 
 Atualmente, devido à uma maior preocupação com o meio ambiente, os consumidores e empresas tem aumentado cada vez mais com o uso da tecnologia, a preservação do meio ambiente.
 Essas tecnologias baseadas na inovação de produtos e serviços procuram ser amigáveis com a natureza proporcionando também mais economia para o consumidor.
