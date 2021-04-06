@@ -25,13 +25,13 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Devido ao aumento da preocupação com o meio ambiente e na economia de combustivel, uma promessa alternativa são os carros elétricos. 
+Ao observar a lacuna existente nas ferramentas disponíveis para dar suporte ao processo de compra de veículos elétricos, bem como o investimento inicial ser alto, torna-se viável a criação de um sistema, neste especificamente, web para auxiliar de forma clara e objetiva.
 
-Pelo seu menor emissão de poluentes ao meio ambiente, bem como, no seu beneficio de melhor economia e maior desempenho de autonomia.
+Além é claro das lacunas que geraram a possibilidade da criação deste projeto, existe a motivação do grupo que conta com membro que atua com veículos elétricos em seu emprego, membros apaixonados por tecnologia e preocupados com o meio ambiente.
 
-Faz necessário uma tecnologia para calcular os custos de desempenho do veículo e sua economia frente aos carros comuns a combustão. 
+O sistema tem por foco, portanto, auxiliar na tomada de decisão em adquirir um veículo elétrico com base em autonomia e custo.
+Como um incentivo a mais, observou-se que este sistema é pioneiro ao abordar uma ferramenta com vastas opções de expansão, como: Comparativo entre veículos, históricos, consultar pontos de abastecimento,  entre outros.
 
-Auxiliando assim, os possiveis compradores na tomada de decisão para trocar um veiculo a combustão em um carro elétrico.
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
