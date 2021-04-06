@@ -8,7 +8,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 45 anos, é arquiteto renomado em Belo Horizonte - MG. É casado e sua esposa está esperando o primeiro filho do casal. Sempre buscando criar seus projetos de forma sustentável, deixa claro sua preocupação com o meio ambiente. 
+Pedro Paulo tem 45 anos, é arquiteto renomado em Belo Horizonte - MG. É casado e sua esposa está esperando o primeiro filho do casal. Sempre buscando criar seus projetos de forma sustentável, deixa claro sua preocupação com o meio ambiente. Recentemente comprou uma casa em um condomínio fechado muito conhecido na região por sua reserva ambiental. 
 
 Carlos tem 35 anos, é um médico clínico geral de São Carlos - SP. É solteiro, adora viajar e apaixonado por tecnologias. Recentemente automatizou toda sua casa a deixando "inteligente". Sempre que possível está buscando inovações.
 
