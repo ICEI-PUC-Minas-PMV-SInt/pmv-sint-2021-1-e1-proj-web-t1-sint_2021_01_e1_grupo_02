@@ -10,7 +10,7 @@ Aplicação Web para suporte ao processo de compra de veículos com base em auto
 ## Integrantes
 
 - Ricardo Alexandre Da Silva
-- Yuri 
+- Yuri Ribeiro Felipe
 - Paula
 - Samuel Henrique Figueiredo Fróes
 - Tulio
