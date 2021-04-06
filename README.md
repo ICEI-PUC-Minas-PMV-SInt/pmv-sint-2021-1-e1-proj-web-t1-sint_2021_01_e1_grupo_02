@@ -1,10 +1,9 @@
 # TÍTULO DO 
-Aplicação Web para suporte ao processo de compra de veículos com base em autonomia e custo de energia
- 
- 
-`CURSO` Tecnologia em Sistemas para Internet       
+Aplicação Web para suporte ao processo de compra de veículos com base em autonomia e custo de energia.
 
-`DISCIPLINA`
+`CURSO` Tecnologia em Sistemas para Internet.                                                                                                                         
+   
+`DISCIPLINA` Projeto:Aplicações Web
 
 `SEMESTRE`
 
