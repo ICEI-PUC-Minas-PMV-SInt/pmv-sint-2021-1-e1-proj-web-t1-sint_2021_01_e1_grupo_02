@@ -38,4 +38,6 @@ Auxiliando assim, os possiveis compradores na tomada de decisão para trocar um 
 
 ## Público-Alvo
 
-Considerando que os veículos elétricos tem um custo alto, nosso público-alvo será pessoas da classe média alta. Pessoas do gênero masculino com ensino superior completo, emprego estável e uma carreira já definida, de 35 a 50 anos, com renda mensal acima de R$ 8 mil mensal, moradores da região sudeste e que são apaixonados por inovação tecnologicas ou  preocupados com o meio ambiente.
+Considerando que os veículos elétricos tem um custo alto, nosso público-alvo será pessoas da classe média alta. 
+
+Pessoas do gênero masculino com ensino superior completo, emprego estável e uma carreira já definida, de 35 a 50 anos, com renda mensal acima de R$ 8 mil mensal, moradores da região sudeste e que são apaixonados por inovação tecnologicas ou  preocupados com o meio ambiente.
