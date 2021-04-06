@@ -1,6 +1,7 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Contexto
+Atualmente, devido à uma maior preocupação com o meio ambiente
 
 ## Problema
 Apesar do contínuo aumento de vendas de carros elétricos no país, muitos são os questionamentos levantados pelos consumidores antes de efetuar sua compra. Por exemplo, “Qual seria a autonomia deste modelo de carro?”, ou, “Quais locais possuem eletropostos para fazer a recarga da bateria caso necessário?”, ou até mesmo, “Qual modelo irá me trazer o melhor custo benefício?”. O fato é que, atualmente, não se encontra na *internet* sistemas voltados para responder tais perguntas para os futuros compradores. Por isso, a dúvida pelos carros elétricos, principalmente no Brasil, ainda continua predominando.
