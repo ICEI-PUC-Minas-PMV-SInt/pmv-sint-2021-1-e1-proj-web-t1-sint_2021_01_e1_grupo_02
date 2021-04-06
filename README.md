@@ -9,12 +9,15 @@ Aplicação Web para suporte ao processo de compra de veículos com base em auto
 
 ## Integrantes
 
-- Obi-Wan Kenobi 
-- Anakin Skywalker
+- Ricardo Alexandre Da Silva
+- Yuri 
+- Paula
+- Samuel Henrique Figueiredo Fróes
+- Tulio
 
 ## Professor
 
-- Mestre Yoda
+- Fabiano
 
 # Documentação
 
