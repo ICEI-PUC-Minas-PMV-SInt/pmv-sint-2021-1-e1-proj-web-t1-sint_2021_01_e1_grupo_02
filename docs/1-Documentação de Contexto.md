@@ -2,7 +2,7 @@
 
  Contexto
 
-Atualmente, devido à uma maior preocupação com o meio ambiente, os consumidores e empresas tem aumentado cada vez mais com o uso da tecnologia, a preservação do meio ambiente.
+Atualmente, devido à uma maior preocupação com o meio ambiente, os consumidores e empresas tem aumentado cada vez mais o uso da tecnologia, a preservação do meio ambiente.
 Essas tecnologias baseadas na inovação de produtos e serviços procuram ser amigáveis com a natureza proporcionando também mais economia para o consumidor.
 O carro elétrico é um desses produtos, com zero emissões de poluentes e proporcionando grande economia em relação aos seus pares a combustão.
 Apesar que o valor seja um empecilho para adoção em massa atualmente para o mercado brasileiro,existe um crescimento na adesão dos carros elétricos pelos Early adopters(pessaos mais dispostas a usarem a novas tecnologias)não param de crescer,conforme noticías atuais as vendas de carros elétricos mostram uma progressão geométrica.
