@@ -11,9 +11,9 @@ Aplicação Web para suporte ao processo de compra de veículos com base em auto
 
 - Ricardo Alexandre Da Silva
 - Yuri Ribeiro Felipe
-- Paula
+- Paula Cristina De Oliveira
 - Samuel Henrique Figueiredo Fróes
-- Tulio
+- Tulio Teodoro De Oliveira
 
 ## Professor
 
