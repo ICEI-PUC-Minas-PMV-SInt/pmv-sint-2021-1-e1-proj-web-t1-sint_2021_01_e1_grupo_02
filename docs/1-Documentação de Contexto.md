@@ -17,9 +17,13 @@ Contudo, surge a necessidade de uma aplicação que forneça suporte de informa�
 ## Objetivos
 
 Portanto, como objetivos, o sistema visa auxiliar o processo de compra, de acordo com os modelos disponíveis no mercado brasileiro, buscando:
+
 •	Comparar a economia de um veículo elétrico com relação ao um veículo a combustão;
+
 •	relacionar o custo-benefício entre a autonomia de um carro elétrico e o custo de energia;
+
 tornando a compra destes produtos pelos consumidores mais consciente.
+
 
 ## Justificativa
 
