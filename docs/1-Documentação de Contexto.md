@@ -36,6 +36,8 @@ Auxiliando assim, os possiveis compradores na tomada de decisão para trocar um 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
+## Estado da Arte
+
 ## Público-Alvo
 
 Considerando que os veículos elétricos tem um custo alto, o público-alvo será pessoas da classe média alta. 
