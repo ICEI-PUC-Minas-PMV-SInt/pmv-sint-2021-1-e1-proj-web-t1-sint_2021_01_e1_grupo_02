@@ -1,7 +1,11 @@
 # Introdução
 
-Contexto
-Atualmente, devido à uma maior preocupação com o meio ambiente
+##Contexto
+Atualmente, devido à uma maior preocupação com o meio ambiente, os consumidores e empresas tem aumentado cada vez mais com o uso da tecnologia, a preservação do meio ambiente.
+Essas tecnologias baseadas na inovação de produtos e serviços procuram ser amigáveis com a natureza proporcionando também mais economia para o consumidor.
+O carro elétrico é um desses produtos, com zero emissões de poluentes e proporcionando grande economia em relação aos seus pares a combustão.
+
+
 
 ## Problema
 Apesar do contínuo aumento de vendas de carros elétricos no país, muitos são os questionamentos levantados pelos consumidores antes de efetuar sua compra. Por exemplo, “Qual seria a autonomia deste modelo de carro?”, ou, “Quais locais possuem eletropostos para fazer a recarga da bateria caso necessário?”, ou até mesmo, “Qual modelo irá me trazer o melhor custo benefício?”. O fato é que, atualmente, não se encontra na *internet* sistemas voltados para responder tais perguntas para os futuros compradores. Por isso, a dúvida pelos carros elétricos, principalmente no Brasil, ainda continua predominando.
