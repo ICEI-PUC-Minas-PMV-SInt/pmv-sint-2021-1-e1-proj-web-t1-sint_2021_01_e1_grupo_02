@@ -10,6 +10,34 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas a seguir:
 
+<table>
+ <tr>
+  <th>Foto</th>
+  <th>Nome</th>
+  <th>Descrição</th>
+  <th>Motivações</th>
+  <th>Frustrações</th>
+  <th>Hobbies, Histórias</th>
+ </tr>
+ <tr>
+  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/github.png"></td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+ </tr>
+ <tr>
+  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/github.png"></td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+ </tr>
+ 
+</table>
+
 Pedro Paulo tem 45 anos, é arquiteto renomado em Belo Horizonte - MG. É casado e sua esposa está esperando o primeiro filho do casal. Sempre busca criar seus projetos de forma sustentável, deixa claro sua preocupação com o meio ambiente. Recentemente comprou uma casa em um condomínio fechado muito conhecido na região por sua reserva ambiental.
 Utiliza muito os aplicativos Strava e Relieve para registrar suas aventuras em trilhas.
 Em suas aventuras encontra as suas maiores frustações, desmatamento e queimada
