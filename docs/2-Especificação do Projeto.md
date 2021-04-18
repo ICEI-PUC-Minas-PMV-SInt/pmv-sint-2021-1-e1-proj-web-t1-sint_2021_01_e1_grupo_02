@@ -20,7 +20,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
   <th>Hobbies, Histórias</th>
  </tr>
  <tr>
-  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/github.png"></td>
+  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona01.jpg"></td>
   <td>....</td>
   <td>....</td>
   <td>....</td>
@@ -28,7 +28,15 @@ As personas levantadas durante o processo de entendimento do problema são apres
   <td>....</td>
  </tr>
  <tr>
-  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/github.png"></td>
+  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona02.jpg"></td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+  <td>....</td>
+ </tr>
+ <tr>
+  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona03.jpg"></td>
   <td>....</td>
   <td>....</td>
   <td>....</td>
