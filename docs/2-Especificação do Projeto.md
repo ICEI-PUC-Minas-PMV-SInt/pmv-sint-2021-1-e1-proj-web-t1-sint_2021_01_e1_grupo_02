@@ -20,7 +20,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
   <th>Hobbies, Histórias</th>
  </tr>
  <tr>
-  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona01.jpg"></td>
+  <td><img width="600px" height="auto" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona01.jpg"></td>
   <td>Carlos</td>
   <td>
     <ul>
@@ -44,7 +44,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
    É solteiro, adora viajar hospedando-se pelo aplicativo airbnb e apaixonado por tecnologias, sempre que possível está escutando podcast no Spotify. Recentemente automatizou   toda sua casa a deixando "inteligente", sempre que possível está buscando inovações.</td>
  </tr>
  <tr>
-  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona.jpg"></td>
+  <td><img width="600px" height="auto" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona.jpg"></td>
   <td>Gabi</td>
   <td>
    <ul>
@@ -66,7 +66,7 @@ As personas levantadas durante o processo de entendimento do problema são apres
   <td>É casada, entusiasta por tecnologia. Em suas aulas de IA (inteligência artificial) sempre busca inspirar seus alunos com conteúdos inovadores. Sempre antenada em novidades, vive com o aplicativo do LinkedIn aberto lendo artigo ali publicados e fazendo networking. Recentemente ajudou a montar o novo laboratório de IA na universidade.</td>
  </tr>
  <tr>
-  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona03.jpg"></td>
+  <td><img width="600px" height="auto" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona03.jpg"></td>
   <td>Pedro Paulo</td>
   <td> 
     <ul>
