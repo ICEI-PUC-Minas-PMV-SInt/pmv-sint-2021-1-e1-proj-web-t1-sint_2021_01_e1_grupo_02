@@ -56,4 +56,4 @@ Os sites informativos, em sua maioria, não eram práticos para auxiliar em uma 
 
 Considerando que os veículos elétricos tem um custo alto, o público-alvo será pessoas da classe média alta. 
 
-Pessoas do gênero masculino com ensino superior completo, emprego estável e uma carreira já definida, de 35 a 60 anos, com renda mensal acima de R$ 8 mil mensal, moradores da região sudeste e que são apaixonados por inovação tecnologicas ou  preocupados com o meio ambiente.
+Pessoas com ensino superior completo, emprego estável e uma carreira já definida, de 35 a 60 anos, com renda mensal acima de R$ 8 mil mensal, moradores da região sudeste e que são apaixonados por inovação tecnologicas ou  preocupados com o meio ambiente.
