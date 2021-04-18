@@ -21,36 +21,77 @@ As personas levantadas durante o processo de entendimento do problema são apres
  </tr>
  <tr>
   <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona01.jpg"></td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
+  <td>Carlos</td>
+  <td>
+    <ul>
+       <li>35 Anos.</li>
+       <li>Médico clínico geral de São Carlos - SP.</li>
+    </ul>
+  </td>
+  <td>
+   <ul>
+       <li>Ajudar pessoas.</li>
+       <li>Fazer a diferença no mundo.</li>
+    </ul>
+  </td>
+  <td>
+   <ul>
+       <li>Desigualdade social.</li>
+       <li>Poluição.</li>
+    </ul>
+  </td>
+  <td>
+   É solteiro, adora viajar hospedando-se pelo aplicativo airbnb e apaixonado por tecnologias, sempre que possível está escutando podcast no Spotify. Recentemente automatizou   toda sua casa a deixando "inteligente", sempre que possível está buscando inovações.</td>
  </tr>
  <tr>
-  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona02.jpg"></td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
+  <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona.jpg"></td>
+  <td>Gabi</td>
+  <td>
+   <ul>
+    <li>40 Anos.</li>
+    <li>Professora universitária na UFOP, Ouro Preto - MG.</li>
+   </ul>
+  </td>
+  <td>
+  <ul>
+    <li>Inovações.</li>
+    <li>Transformar o mundo.</li>
+   </ul>
+  </td>
+  <td>
+  <ul>
+    <li>Desigualdade digital.</li>
+   </ul>
+  </td>
+  <td>É casada, entusiasta por tecnologia. Em suas aulas de IA (inteligência artificial) sempre busca inspirar seus alunos com conteúdos inovadores. Sempre antenada em novidades, vive com o aplicativo do LinkedIn aberto lendo artigo ali publicados e fazendo networking. Recentemente ajudou a montar o novo laboratório de IA na universidade.</td>
  </tr>
  <tr>
   <td><img width="100px" height="100px" src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2021-1-e1-proj-web-t1-sint_2021_01_e1_grupo_02/blob/main/docs/img/persona03.jpg"></td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
-  <td>....</td>
+  <td>Pedro Paulo</td>
+  <td> 
+    <ul>
+       <li>45 Anos.</li>
+      <li>Arquiteto renomado em Belo Horizonte - MG.</li>
+   </ul>
+  </td>
+  <td>
+   <ul>
+       <li>Sustentabilidade.</li>
+      <li>Torna o mundo melhor.</li>
+   </ul>
+  </td>
+  <td>
+  <ul>
+      <li>Desmatamento.</li>
+      <li>Queimada.</li>
+     <li>Poluição.</li>
+   </ul>
+  </td>
+  <td>É casado e sua esposa está esperando o primeiro filho do casal. Sempre busca criar seus projetos de forma sustentável, deixa claro sua preocupação com o meio ambiente. Recentemente comprou uma casa em um condomínio fechado muito conhecido na região por sua reserva ambiental.
+Utiliza muito os aplicativos Strava e Relieve para registrar suas aventuras em trilhas.</td>
  </tr>
  
 </table>
-
-Pedro Paulo tem 45 anos, é arquiteto renomado em Belo Horizonte - MG. É casado e sua esposa está esperando o primeiro filho do casal. Sempre busca criar seus projetos de forma sustentável, deixa claro sua preocupação com o meio ambiente. Recentemente comprou uma casa em um condomínio fechado muito conhecido na região por sua reserva ambiental.
-Utiliza muito os aplicativos Strava e Relieve para registrar suas aventuras em trilhas.
-Em suas aventuras encontra as suas maiores frustações, desmatamento e queimada
-
-Carlos tem 35 anos, é um médico clínico geral de São Carlos - SP. É solteiro, adora viajar hospedando-se pelo aplicativo airbnb e apaixonado por tecnologias, sempre que possível está escutando podcast no Spotify. Recentemente automatizou toda sua casa a deixando "inteligente", sempre que possível está buscando inovações. Em suas viagens pelas grandes capitais sua frustação é com a poluição causada pelos veículos.
 
 ## Histórias de Usuários
 
