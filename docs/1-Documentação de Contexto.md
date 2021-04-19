@@ -1,6 +1,6 @@
 # Introdução
 
-######Contexto
+##### Contexto
 
 Atualmente, devido à uma maior preocupação com o meio ambiente, os consumidores e empresas tem aumentado cada vez mais o uso da tecnologia, a preservação do meio ambiente.
 Essas tecnologias baseadas na inovação de produtos e serviços procuram ser amigáveis com a natureza proporcionando também mais economia para o consumidor.
@@ -63,7 +63,7 @@ Para esta finalidade, foram analisados os sites e o aplicativo abaixo:
 
   Um aplicativo brasileiro, disponível nas lojas digitais GooglePlay e AppStore, nele é possível verificar os pontos de recargas credenciados pelo aplicativo.
 
-###### Considerações finais
+##### Considerações finais
 
 É interessante ressaltar, que os sites analisados informam o custo-benefício do carro elétrico em relação ao de combustão, mas não conduz de forma clara como encontrar o custo da energia. No único site com o exemplo de uma calculadora de economia o mesmo carece de informações e orientações de preenchimento e seu resultado é genérico. Todos os aplicativos encontrados nas lojas digitais tem enfoque em pontos de recarga.
 
