@@ -137,7 +137,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| Interface Intuitiva | MÉDIA | 
 |RNF-006|O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-011| Utilizar o framework Bootstrap para o front end |  MÉDIA | 
+|RNF-011| Utilizar o framework Bootstrap para o Front-End |  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
