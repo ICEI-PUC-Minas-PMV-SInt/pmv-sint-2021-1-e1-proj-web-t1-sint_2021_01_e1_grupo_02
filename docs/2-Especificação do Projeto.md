@@ -124,18 +124,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 |RF-004| Cada campo do formulário deve validar o tipo de dado | ALTA |
-|RF-005| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALta |
+|RF-005| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALTA |
+|RF-006| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | ALTA |
+|RF-007| Efetuar Logoff no sistema | ALTA |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA |
+|RNF-001| O sistema deve ser responsivo para executar em dispositivos móveis | ALTA |
 |RNF-002| As permissões de acesso ao sistema podem ser alteradas apenas pelo administrador de sistemas | MÉDIA |
 |RNF-004| Utilizar o SCRUM como metodologia de desenvolvimento | ALTA | 
 |RNF-005| Interface Intuitiva | MÉDIA | 
-|RNF-006|O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
+|RNF-006| O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
