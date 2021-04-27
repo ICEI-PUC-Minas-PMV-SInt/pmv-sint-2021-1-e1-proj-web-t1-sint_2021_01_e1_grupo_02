@@ -99,6 +99,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------            |----------------------------------------|
+|Administrador       | Registrar logon do sistema                    | Para que eu possa gerenciar a aplicação|
 |Administrador       | Registrar logoff do sistema                    | Garantir a integridade da conta de administrador|
 |Usuário do sistema  | Calcular a autonomia do veículo elétrico       | Analisar o desempenho e o custo de energia|
 |Usuário do sistema  | Compartilhar e imprimir o resultado do cálculo | Ter informações impressas e detalhadas |
@@ -122,10 +123,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003| Opção para escolha de imprimir o resultado do cálculo| MÉDIA |
 |RF-004| Cada campo do formulário deve validar o tipo de dado | ALTA |
-|RF-005| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALTA|
-|RF-007| Efetuar login com e-mail e senha | MÉDIA |
+|RF-005| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALta |
+
 
 ### Requisitos não Funcionais
 
@@ -137,7 +137,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005| Interface Intuitiva | MÉDIA | 
 |RNF-006|O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-011| Utilizar o framework Bootstrap para o Front-End |  MÉDIA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
