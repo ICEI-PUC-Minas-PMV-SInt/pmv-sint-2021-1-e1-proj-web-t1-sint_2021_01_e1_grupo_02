@@ -101,6 +101,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |--------------------|------------------------------------            |----------------------------------------|
 |Administrador       | Registrar logon do sistema                    | Para que eu possa gerenciar a aplicação|
 |Administrador       | Registrar logoff do sistema                    | Garantir a integridade da conta de administrador|
+|Administrador       | Cadastrar veículos                   | Melhorar a usuabilidade do usuário, possibilitando a seleção de veículo|
 |Usuário do sistema  | Calcular a autonomia do veículo elétrico       | Analisar o desempenho e o custo de energia|
 |Usuário do sistema  | Compartilhar e imprimir o resultado do cálculo | Ter informações impressas e detalhadas |
 
