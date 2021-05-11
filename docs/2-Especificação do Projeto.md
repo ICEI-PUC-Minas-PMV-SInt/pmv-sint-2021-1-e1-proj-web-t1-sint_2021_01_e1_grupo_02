@@ -128,6 +128,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-005| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALTA |
 |RF-006| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | ALTA |
 |RF-007| Efetuar Logoff no sistema | ALTA |
+|RF-008| Permitir que o administrador realize o cadastro de veículos | ALTA |
 
 
 ### Requisitos não Funcionais
@@ -136,10 +137,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para executar em dispositivos móveis | ALTA |
 |RNF-002| As permissões de acesso ao sistema podem ser alteradas apenas pelo administrador de sistemas | MÉDIA |
-|RNF-004| Utilizar o SCRUM como metodologia de desenvolvimento | ALTA | 
-|RNF-005| Interface Intuitiva | MÉDIA | 
-|RNF-006| O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Utilizar o SCRUM como metodologia de desenvolvimento | ALTA | 
+|RNF-004| Interface Intuitiva | MÉDIA | 
+|RNF-005| O sistema deve funcionar em todos os principais navegadores (Chrome, mozila e Edge) |  MÉDIA | 
+|RNF-006| Deve processar requisições do usuário em no máximo 5s |  BAIXA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
