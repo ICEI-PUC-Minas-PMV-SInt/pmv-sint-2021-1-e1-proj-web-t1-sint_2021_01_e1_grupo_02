@@ -125,6 +125,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| Realizar os cálculos necessários para comparação da autonomia e custo beneficio entre carros elétricos x combustão | ALTA |
 |RF-012| Permitir recuperação de login| ALTA |
 |RF-013| Restrição de extensão do arquivo do upload de imagens| MÉDIA |
+|RF-014| Restrição de tamanho de arquivo do upload de imagens | MÉDIA |
+|RF-015| Permitir que o administrador formate o texto da descrição do cadastro | MÉDIA |
 
 
 ### Requisitos não Funcionais
