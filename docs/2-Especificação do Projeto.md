@@ -120,6 +120,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | ALTA |
 |RF-007| Efetuar Logoff no sistema | ALTA |
 |RF-008| Permitir que o administrador realize o cadastro de veículos | ALTA |
+|RF-009| Realizar cadastro de usuários | ALTA |
 |RF-012| Permitir recuperação de login| ALTA |
 |RF-013| Restrição de extensão do arquivo do upload de imagens| MÉDIA |
 
