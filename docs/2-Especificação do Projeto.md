@@ -1,8 +1,7 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 Devido à preocupação com o meio ambiente e, principalmente, ao constante aumento dos gastos que um veículo a combustão gera para os usuários, o uso e a procura por veículos elétricos vem aumentando gradativamente. Portanto, cresce também a necessidade de auxiliar os consumidores durante o processo de escolha do produto, garantindo uma maior confiabilidade em seu investimento.
+
 Durante a especificação desse projeto serão definidos:  as personas, as histórias de usuários, os requisitos funcionais e não funcionais e as restrições do projeto.
 
 ## Personas
