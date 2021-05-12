@@ -97,6 +97,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`             |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------            |----------------------------------------|
+|Administrador       | Realizar cadastro de usuario                    | Para que eu possa compartilhar o gerenciamento da aplicação|
 |Administrador       | Registrar logon do sistema                    | Para que eu possa gerenciar a aplicação|
 |Administrador       | Registrar logoff do sistema                    | Garantir a integridade da conta de administrador|
 |Administrador       | Cadastrar veículos                   | Melhorar a usuabilidade do usuário, possibilitando a seleção de veículo|
@@ -119,8 +120,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | ALTA |
 |RF-007| Efetuar Logoff no sistema | ALTA |
 |RF-008| Permitir que o administrador realize o cadastro de veículos | ALTA |
-|RF-010| Efetuar Logon no Sistema | ALTA |
-|RF-011| Realizar os Cálculos Necessários de Comparação da Autonomia e Custo | ALTA |
 |RF-012| Permitir recuperação de login| ALTA |
 |RF-013| Restrição de extensão do arquivo do upload de imagens| MÉDIA |
 
