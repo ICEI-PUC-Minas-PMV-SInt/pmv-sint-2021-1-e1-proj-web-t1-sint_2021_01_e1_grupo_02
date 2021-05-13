@@ -1,0 +1,46 @@
+.template-header{
+    position: absolute;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background: #191970;
+}
+
+.template-logo{
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    left: 16px;
+    top: 23px;
+}
+
+.template-config{
+    position: absolute;
+    top: 17px;
+    right: 0.97%;
+}
+
+.template-footer{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: #191970;
+}
+
+.template-footer p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #C4C4C4;
+    padding-top: 5px;
+}
+
+@media (min-width: 380px){
+    .template-footer{
+        height: 25px;
+    }
+}
