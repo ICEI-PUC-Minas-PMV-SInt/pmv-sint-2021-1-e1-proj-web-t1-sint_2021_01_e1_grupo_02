@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Grid Layout */
+
+body{
+    display: grid;
+    grid-template-rows: 70px minmax(85.5vh, 1fr) auto;
+}
+
 .template-header{
-    position: absolute;
-    height: 70px;
-    left: 0px;
-    top: 0px;
+    grid-row: 1/2;
+}
+
+.template-main{
+    grid-row: 2/3;
+}
+
+.template-footer{
+    grid-row: 3/4;
+}
+
+
+/* Estilização */
+
+.template-header, .template-footer{
     background: #191970;
 }
 
@@ -20,13 +40,6 @@
     right: 0.97%;
 }
 
-.template-footer{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    background: #191970;
-}
-
 .template-footer p{
     font-family: 'Open Sans';
     font-style: normal;
@@ -39,8 +52,8 @@
     padding-top: 5px;
 }
 
-@media (min-width: 380px){
-    .template-footer{
-        height: 25px;
+@media (min-width: 410px){
+    body{
+        grid-template-rows: 70px minmax(85.5vh, 1fr) 25px;
     }
 }
