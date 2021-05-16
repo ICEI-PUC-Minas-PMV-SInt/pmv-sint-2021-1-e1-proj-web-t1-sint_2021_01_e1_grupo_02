@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Grid Layout */
+
+body{
+    display: grid;
+    grid-template-rows: 70px minmax(85.5vh, 1fr) auto;
+}
+
+.template-header{
+    grid-row: 1/2;
+}
+
+.template-main{
+    grid-row: 2/3;
+}
+
+.template-footer{
+    grid-row: 3/4;
+}
+
+
+/* Estilização */
+
+.template-header, .template-footer{
+    background: #191970;
+}
+
+.template-logo{
+    position: absolute;
+    width: 111px;
+    height: 29px;
+    left: 16px;
+    top: 23px;
+}
+
+.template-config{
+    position: absolute;
+    top: 17px;
+    right: 0.97%;
+}
+
+.template-footer p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #C4C4C4;
+    padding-top: 5px;
+}
+
+@media (min-width: 410px){
+    body{
+        grid-template-rows: 70px minmax(85.5vh, 1fr) 25px;
+    }
+}
