@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-/* Grid Layout */
+/* Grid Layout do template base */
 
 body{
     display: grid;
@@ -20,12 +20,18 @@ body{
 }
 
 
-/* Estilização */
+/* Estilização dos elementos do template base */
 
-.template-header, .template-footer{
-    background: #191970;
+/* Navegador contendo logotipo e o ícone de configuração */
+.template-navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: #191970;
+    height: 70px;
 }
 
+/* Logotipo EletriCharge */
 .template-logo{
     position: absolute;
     width: 111px;
@@ -34,12 +40,20 @@ body{
     top: 23px;
 }
 
+/* icone de configuração (engrenagem) */
 .template-config{
     position: absolute;
     top: 17px;
     right: 0.97%;
 }
 
+/* Estilização do footer */
+.template-footer{
+    background: #191970;
+}
+
+
+/* Estilização do parágrafo do footer */
 .template-footer p{
     font-family: 'Open Sans';
     font-style: normal;
@@ -51,6 +65,8 @@ body{
     color: #C4C4C4;
     padding-top: 5px;
 }
+
+/* Alterando o comprimento da linha do footer para 25px */
 
 @media (min-width: 410px){
     body{
