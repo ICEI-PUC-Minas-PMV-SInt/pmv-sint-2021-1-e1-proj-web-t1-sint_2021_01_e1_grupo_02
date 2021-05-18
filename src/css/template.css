@@ -16,7 +16,10 @@ body{
 }
 
 .template-footer{
-    grid-row: 3/4;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    max-height: 30px;
 }
 
 
