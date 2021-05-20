@@ -42,28 +42,22 @@ html{
 /* Estilização do container que contém o botão e a div '>' */
 
 .index-buttonContainer{
-    display: flex;
-    justify-content: center;
     position: relative;
-    right: 50px;
     margin-top: 35px;
-    width: 500px;
+    width: 50vw;
     cursor: pointer;
+    text-decoration: none;
 }
 
-/* Botão 'INICIAR AGORA */
+/* Estilização do botão 'INICIE AGORA */
 
 .index-button{
     height: 50px;
-    width: 400px;
+    width: 41.8vw;
     background-color: #191970;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-}
-
-.index-button a{
-    text-decoration: none;
     color: #fff;
     text-transform: uppercase;
 }
@@ -73,19 +67,18 @@ html{
 .index-buttonContainer div{
     position: absolute;
     top: 0px;
-    right: 0px;
-    width: 62px;
+    right: 1.8vw;
+    width: 8vw;
     height: 50px;
     background-color: rgba(25, 25, 112, .5);
     border-radius: 0px 10px 10px 0px;
-    Width: 70px;
 }
 
 /* Ajuste da posição e tamanho da '>' */
 
 .index-buttonContainer img{
     position: absolute;
-    right: 20px;
+    right: 2.5vw;
     margin: 12.5px auto;
 }
 
@@ -93,6 +86,57 @@ html{
 
 .index-img{
     margin: 50px 0;
+    width: 100vw;
+}
+
+
+/* Ajustando o tamanho do botão 'INICIE AGORA' para tamanhos de tela maiores que 576px */
+
+@media (min-width: 576px){
+    .index-buttonContainer{
+        width: 50vw;
+    }
+
+    .index-button{
+        width: 42.5vw;
+    }
+    
+    .index-buttonContainer div{
+        right: .8vw;
+        width: 8vw;
+    }
+}
+
+/* Ajustando o tamanho do botão 'INICIE AGORA' para tamanhos de tela maiores que 768px */
+
+@media (min-width: 768px){
+    .index-buttonContainer{
+        display: flex;
+        justify-content: center;
+        right: 50px;
+        width: 500px;
+    }
+
+    .index-button{
+        width: 400px;
+    }
+    
+    .index-buttonContainer div{
+        right: 0px;
+        Width: 70px;
+    }
+
+    .index-buttonContainer img{
+        right: 20px;
+    }
+}
+
+/* Ajustando o tamanho da imagem do carrinho para tamanhos de tela entre 992px e 1200px */
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .index-img{
+        width: 70vw;
+    }
 }
 
 /* Ajustando a posição da seção do conteúdo para tamanhos de tela maiores que 1200px */
@@ -108,6 +152,7 @@ html{
         margin-top: 0;
     }
 }
+
 
 /* reduzindo a largura do titulo e dos paragrafos para tamanhos de tela maiores que 1400px */
 
