@@ -5,6 +5,7 @@
 body{
     display: grid;
     grid-template-rows: 70px minmax(85.5vh, 1fr) auto;
+    overflow: auto;
 }
 
 .template-header{
@@ -13,6 +14,7 @@ body{
 
 .template-main{
     grid-row: 2/3;
+    
 }
 
 /* Estilização dos elementos do template base */
