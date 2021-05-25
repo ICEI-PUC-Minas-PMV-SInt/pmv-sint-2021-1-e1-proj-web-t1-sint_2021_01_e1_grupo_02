@@ -1,0 +1,95 @@
+/* Estilização do container que contém o botão e a div '>' */
+
+.index-buttonContainer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+    width: 500px;
+    cursor: pointer;
+	margin-top: 25px;
+}
+
+/* Botão 'INICIAR AGORA */
+
+.index-button{
+    height: 50px;
+    width: 400px;
+    background-color: #191970;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.index-button a{
+    text-decoration: none;
+    text-transform: uppercase;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 33px;
+	letter-spacing: -0.015em;
+	color: #FFFFFF;
+}
+
+/* Div com a seta '>' */
+
+.index-buttonContainer div{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: rgba(25, 25, 112, .5);
+    border-radius: 0px 10px 10px 0px;
+    Width: 70px;
+}
+
+/* Ajuste da posição e tamanho da '>' */
+
+.index-buttonContainer img{
+    position: absolute;
+    right: 20px;
+    margin: 12.5px auto;
+}
+
+.formata-h1{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 75px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	color: #263238;
+}
+
+.formata-p{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: -0.015em;
+	color: #9E9E9E;
+}
+
+.formata-campo{
+	height: 50px;
+	width: 400px;
+	border-radius: 10px;
+	border: 1px solid #E1E1E1;
+	color: #9E9E9E;
+}
+
+.formata-ou{
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: -0.015em;
+	color: #407BFF;
+	mix-blend-mode: normal;
+	margin-top: 10px;
+}
