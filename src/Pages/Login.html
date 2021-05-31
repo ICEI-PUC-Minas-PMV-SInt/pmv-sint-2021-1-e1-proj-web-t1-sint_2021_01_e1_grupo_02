@@ -6,19 +6,48 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link href="../css/template.css" rel="stylesheet" type="text/css" media="all">
         <link href="../css/index.css" rel="stylesheet" type="text/css" media="all">
+        <link href="../css/login.css" rel="stylesheet" type="text/css" media="all">
     </head>
 
     <body>
         <header class="template-header">
             <nav class="navbar template-navbar">
-                <a href="../index.html"><img src="../Public/img/EletriCharge.svg" alt="Logotipo EletriCharge" class="template-logo"></a>
+                <img src="../Public/img/EletriCharge.svg" alt="Logotipo EletriCharge" class="template-logo">
                 <a href="../Pages/Login.html"><img src="../Public/img/icone-config.svg" alt="Ícone de configurações" class="template-config"></a>
             </nav>
         </header>
-        <main class="container template-main">
-          
-        </main>
 
+        <main class="container template-main">
+            <section class="row login-section">
+                <div class="col-xl-6 login-coluna1">
+                    <h1>Carros elétricos a Evolução</h1>
+                    <p>Ajudamos a montar o mundo.</p>
+                    <img src="../Public/img/Group 44.svg" class="img-Group">
+                </div>   
+
+                <div class="col-xl-6 login-coluna2">
+
+                    <div class="titulo">
+                        <h4>LOGIN</h4>
+                    </div>
+
+                   <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Senha">
+                        <a href="">Esqueci a Senha?</a>
+                        <div class="login-buttonContainer">
+                            <button type="button" class="login-button" ><a href="../src/Pages/Login.html">Logar</a></button>
+                        <div>
+                    </div>
+                </div>
+                <div class="cadastro">
+                    <p class="login-cadastro">Não tem cadastro?</p>
+                    <a href="" class="cadastrar-usuario">CADASTRAR</a>
+                </div>
+            </section>  
+        </main>
         <footer class="template-footer">
             <p>© {2020} EletriCharge. All Rights Reserved. Powered by EletriCHarge</p>
         </footer>
