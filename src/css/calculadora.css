@@ -130,6 +130,6 @@ section{
 /* Aumentando a separação dos containers dos inputs quando mudam de 2 para 1 coluna */
 @media (max-width: 1200px){
 	section .calculadora-flexColumnContainer:nth-child(2){
-		margin-top: 100px;
+		margin-top: 80px;
 	}
 }
