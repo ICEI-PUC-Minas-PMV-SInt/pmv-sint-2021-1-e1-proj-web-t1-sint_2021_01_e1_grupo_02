@@ -1,95 +1,135 @@
-/* Estilização do container que contém o botão e a div '>' */
-
-.index-buttonContainer{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    right: 50px;
-    width: 500px;
-    cursor: pointer;
-	margin-top: 25px;
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #9E9E9E;
 }
 
-/* Botão 'INICIAR AGORA */
-
-.index-button{
-    height: 50px;
-    width: 400px;
-    background-color: #191970;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
+section{
+	margin: 25px 0;
 }
 
-.index-button a{
-    text-decoration: none;
-    text-transform: uppercase;
-	font-family: Open Sans;
-	font-style: normal;
+.calculadora-titulo{
 	font-weight: bold;
-	font-size: 16px;
-	line-height: 33px;
-	letter-spacing: -0.015em;
-	color: #FFFFFF;
-}
-
-/* Div com a seta '>' */
-
-.index-buttonContainer div{
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 50px;
-    background-color: rgba(25, 25, 112, .5);
-    border-radius: 0px 10px 10px 0px;
-    Width: 70px;
-}
-
-/* Ajuste da posição e tamanho da '>' */
-
-.index-buttonContainer img{
-    position: absolute;
-    right: 20px;
-    margin: 12.5px auto;
-}
-
-.formata-h1{
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 55px;
+	font-size: 45px;
 	line-height: 75px;
 	text-align: center;
 	letter-spacing: -0.015em;
 	color: #263238;
 }
 
-.formata-p{
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 33px;
+.calculadora-texto{
+	font-size: 20px;
+	line-height: 25px;
 	letter-spacing: -0.015em;
-	color: #9E9E9E;
+	margin: auto 10%;
 }
 
-.formata-campo{
+
+/* Alterando o display flex column para organizar os inputs */
+.calculadora-flexColumnContainer{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.calculadora-input{
 	height: 50px;
 	width: 400px;
 	border-radius: 10px;
 	border: 1px solid #E1E1E1;
+	margin: 10px 0;
+	padding-left: 15px;
 	color: #9E9E9E;
 }
 
-.formata-ou{
-	font-family: Open Sans;
-	font-style: normal;
-	font-weight: normal;
+/* Destacando o input quando estiver em foco */
+.calculadora-input:focus{
+	outline: none;
+	box-shadow: 0 0 0 1.5px #E1E1E1;
+}
+
+.calculadora-input::placeholder{
+	color: #9E9E9E;
+}
+
+.calculadora-km{
+	display: flex;
+	justify-content: space-between;
+}
+
+.calculadora-km input{
+	width: 45%;
+}
+
+.calculadora-km input::placeholder{
+	font-size: 15px;
+}
+
+.calculadora-span{
 	font-size: 18px;
 	line-height: 25px;
 	letter-spacing: -0.015em;
 	color: #407BFF;
-	mix-blend-mode: normal;
-	margin-top: 10px;
+	margin-top: 50px;
+}
+
+/* A classe .correcao-buttonContainer tem a finalidade de corrigir posições e larguras da classe .index-buttonContainer */
+
+.correcao-buttonContainer{
+    width: 70vw;
+}
+
+.correcao-buttonContainer button{
+    width: 56vw;
+}
+
+/* Div com a seta '>' */
+
+.correcao-buttonContainer div{
+    width: 20vw; 
+}
+
+/* Ajuste da posição e tamanho da '>' */
+
+.correcao-buttonContainer img{
+    right: 3vw; 
+}
+
+/* Ajustando o tamanho do botão 'CALCULAR' para tamanhos de tela maiores que 576px */
+
+@media (min-width: 576px){
+    .correcao-buttonContainer{
+        width: 65vw;
+    }
+
+	.correcao-buttonContainer button{
+		width: 55vw; 
+	}
+}
+
+/* Ajustando o tamanho do botão 'CALCULAR' para tamanhos de tela maiores que 768px */
+
+@media (min-width: 768px){
+    .correcao-buttonContainer{
+        right: 25px; 
+		width: 500px;
+    }
+
+	.correcao-buttonContainer button{
+		width: 400px; 
+	}
+
+	.correcao-buttonContainer div{
+        width: 70px;
+    }
+
+	.index-buttonContainer img{
+        right: 20px;
+    }
+}
+
+/* Aumentando a separação dos containers dos inputs quando mudam de 2 para 1 coluna */
+@media (max-width: 1200px){
+	section .calculadora-flexColumnContainer:nth-child(2){
+		margin-top: 100px;
+	}
 }
