@@ -133,3 +133,22 @@ section{
 		margin-top: 80px;
 	}
 }
+
+
+/* Estilização do modal */
+.modal-fade-transform{
+	transform: translate(0, -50px);
+	transition: transform .3s ease-out;
+}
+
+.modal-title{
+	color: #263238;
+}
+
+.btn{
+	background-color: #191970;
+}
+
+.btn:hover{
+	background-color: rgba(25, 25, 112, .8);
+}

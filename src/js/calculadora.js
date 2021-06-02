@@ -1,5 +1,12 @@
+//Criando um Modal
+let myModal = new bootstrap.Modal(document.getElementById('myModal'));
+
+//Criando referencians ao modal e ao body do mesmo
+let myModalEl = document.getElementById('myModal');
+let modalBody = document.querySelector('.modal-body');
+
 //Criando referencia e atribuindo evento ao o botão calcular
-let btnCalcular = document.getElementById('btn-calcular');
+let btnCalcular = document.querySelector('.index-buttonContainer');
 btnCalcular.addEventListener('click', calcularEconomia);
 
 // Função para calculo da economia anual
@@ -14,16 +21,28 @@ function calcularEconomia() {
     for(let i = 0; i < _input.length; i++) {
         _input[i].value = null;
     }
-    
+
+    let p = document.createElement('p');
+    let text;
+
     if(!!economiaAnual){
         if(economiaAnual > 0){
-            alert('Isso é o quanto você pode economizar por ano mudando para um veículo elétrico!\nR$ ' + economiaAnual);
+            text = document.createTextNode('Isso é o quanto você pode economizar por ano mudando para um veículo elétrico! R$ ' + economiaAnual);
         } else {
-            alert('A troca para o veículo elétrico não será viável para este caso. Houve um prejuízo de:\nR$ ' + economiaAnual * (-1));
+            text = document.createTextNode('A troca para o veículo elétrico não será viável para este caso. Houve um prejuízo de R$ ' + economiaAnual * (-1));
         }
     } else{
-        alert('Por favor, preencha todos os campos de entrada!');
+        text = document.createTextNode('Por favor, preencha todos os campos de entrada!');
     }
+
+    p.appendChild(text);
+    modalBody.appendChild(p);
+    
+    myModal.toggle();
+
+    myModalEl.addEventListener('hidden.bs.modal', function () {
+        p.remove();
+    })
 }
 
 function calcularKmAnual() {
