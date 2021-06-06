@@ -7,11 +7,11 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-rows: auto 1fr;
 }
 
 .cadastroUsuario-opcoesCadastro{
-    grid-column: 1/2;
+    grid-row: 1/2;
     height: 100%;
     background-color: #fff;
     padding: 0;
@@ -30,10 +30,12 @@ main{
 .cadastroUsuario-opcoesCadastro a:hover{
     background: rgba(64, 123, 255, 0.3);
     color: #407BFF;
+    outline: 1px dotted #407BFF;
+    outline-offset: -1px;
 }
 
 .cadastroUsuario-cadastroContainer{
-    grid-column: 2/3;
+    grid-row: 2/3;
     position: relative;
     display: flex;
     flex-flow: column;
@@ -41,7 +43,7 @@ main{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;
     padding: 3rem 2rem;
-    margin: 40px;
+    margin: 40px 5px;
 }
 
 .cadastroUsuario-cadastroContainer h1{
@@ -67,22 +69,16 @@ main{
     font-size: 12px;
     color: #407BFF;
     line-height:  16px;
-    width: 390px;
+    max-width: 390px;
 }
 
 .cadastroUsuario-inputContainer > div{
     display: flex;
-    justify-content: space-between;
+    flex-flow: column;
 }
 
 .cadastroUsuario-inputContainer > div input{
-    width: 48%;
-}
-
-.cadastroUsuario-buttonContainer{
-    position: absolute;
-    right: 1.5rem;
-    bottom: 1.5rem;
+    width: 100%;
 }
 
 button{
@@ -104,4 +100,45 @@ button{
     color: #DF5753;
     border: 1px solid #DF5753;
     margin: .5rem;
+}
+
+@media (min-width: 427px){
+    .cadastroUsuario-cadastroContainer{
+        margin: 40px;
+    }
+}
+
+@media (min-width: 551px){
+    .cadastroUsuario-inputContainer > div{
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    .cadastroUsuario-inputContainer > div input{
+        width: 48%;
+    }
+}
+
+@media (min-width: 834px) {
+    main{
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: auto;
+    }
+
+    .cadastroUsuario-opcoesCadastro{
+        grid-area: 1/1/2/2;
+    }
+    
+    .cadastroUsuario-cadastroContainer{
+        grid-area: 1/2/2/3;
+    }
+}
+
+@media (min-width: 941px){
+    .cadastroUsuario-buttonContainer{
+        position: absolute;
+        right: 1.5rem;
+        bottom: 1.5rem;
+    }
 }
