@@ -70,8 +70,6 @@ h4{
     cursor: pointer;
 }
 
-
-
 .login-button{
     height: 50px;
     width: 300px;
@@ -97,7 +95,7 @@ h4{
     background-color: rgba(25, 25, 112, .5);
     border-radius: 0px 10px 10px 0px;
     Width: 70px;
-}
+} 
 
 
 .login-buttonContainer img{
