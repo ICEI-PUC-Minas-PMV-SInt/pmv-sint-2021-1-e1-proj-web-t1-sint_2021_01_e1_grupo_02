@@ -6,17 +6,69 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
         <link href="../css/template.css" rel="stylesheet" type="text/css" media="all">
         <link href="../css/index.css" rel="stylesheet" type="text/css" media="all">
+        <link href="../css/cadastroVeiculo.css" rel="stylesheet" type="text/css" media="all">
     </head>
 
     <body>
+        
         <header class="template-header">
             <nav class="navbar template-navbar">
                 <a href="../index.html"><img src="../Public/img/EletriCharge.svg" alt="Logotipo EletriCharge" class="template-logo"></a>
                 <a href="../Pages/Login.html"><img src="../Public/img/icone-config.svg" alt="Ícone de configurações" class="template-config"></a>
             </nav>
         </header>
-        <main class="container template-main">
-            
+        
+        <main class="template-main">
+            <div class="cadastroVeiculo-opcoesCadastro">
+                <a href="./CadastroVeiculo.html">Veículos</a>
+                <a href="./CadastroUsuario.html" id="linkUsuario">Usuários</a>
+            </div>
+
+            <div class="cadastroVeiculo-opcoesVeiculoContainer">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Cadastrar um veículo</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="cadastroVeiculo-inputContainer">
+                            <input title="text" name="name" placeholder="Nome do Veículo" autofocus>
+                            <input title="text" name="categoria" placeholder="Categoria">
+                            <input title="text" name="consumo-medio" placeholder="Consumo médio">
+                            <input title="text" name="preco" placeholder="Preço">
+                            <button type="image" class="cadastroVeiculo-imagem">Adicionar imagem</button>
+                            <p class="imagem-descricaoimagem">As imagens devem ser JPG ou PNG e não devem ultrapassar 5 mb</p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                          <div class="flex-container">
+                                <div class="flex-itemcontainer-foto">
+                                    <img src="../Public/img/foto1.svg" alt="" class="template-veiculo">
+                                    <img src="../Public/img/foto2.svg" alt="" class="template-veiculo">
+                                    <img src="../Public/img/foto3.svg" alt="" class="template-veiculo">
+                                    <img src="../Public/img/foto4.svg" alt="" class="template-veiculo">
+                                </div>
+
+                                <div class="flex-itemcontainer-texto">
+                                    <textarea name="descriçao" id="descricao" placeholder="Descrição"></textarea>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="cadastroVeiculo-buttonContainer">
+                            <button type="reset" class="cadastroVeiculo-botaoCancelar">Cancelar</button>
+                            <button type="submit" class="cadastroVeiculo-botaoCadastrar">Cadastrar</button>
+                        </div>
+                    </div>
+                  </div>
+                </div>
         </main>
 
         <footer class="template-footer">

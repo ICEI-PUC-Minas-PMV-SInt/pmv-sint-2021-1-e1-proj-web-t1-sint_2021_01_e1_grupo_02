@@ -1,0 +1,177 @@
+body{
+    font-family: 'Open Sans';
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.cadastroVeiculo-opcoesCadastro{
+    grid-row: 1/3;
+    height: 100%;
+    width: 70.3%;
+    background-color: #fff;
+    padding: 0;
+}
+
+.cadastroVeiculo-opcoesCadastro a{
+    display: block;
+    text-decoration: none;
+    color: #9E9E9E;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+    padding: 1.5rem 1.5rem;
+}
+
+.cadastroVeiculo-opcoesCadastro a:hover{
+    background: rgba(64, 123, 255, 0.3);
+    color:#407BFF;
+    outline: 1px dotted #407BFF;
+    outline-offset: -1px;
+}
+
+.cadastroVeiculo-opcoesVeiculoContainer{
+    grid-row: 2/3;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    background-color: #fff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    margin: 40px 5px;
+}
+
+.cadastroVeiculo-opcoesVeiculoContainer h1{
+    font-size: 24px;
+    color: #263238;
+}
+
+.cadastroVeiculo-inputContainer input{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 1rem;
+    width: 100%;
+    margin: 14px 0;
+}
+
+.cadastroVeiculo-imagem{
+    width: 213px;
+    height: 38px;
+    left: 392px;
+    top: 653px;
+    background: #9E9E9E;
+    border-radius: 10px;
+}
+
+.flex-itemcontainer-foto{
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    height: 40px;
+    padding-left: 1rem;
+    width: 80%;
+    margin: 14px 0;
+}
+
+.flex-itemcontainer-texto textarea{
+    bottom: 30.86%;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.imagem-descricaoimagem{
+    font-size: 12px;
+    color: #407BFF;
+    line-height:  16px;
+    max-width: 390px;
+}
+
+.cadastroVeiculo-buttonContainer{
+    align-self: flex-end;;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.cadastroVeiculo-botaoCadastrar{
+    background-color: #191970;
+    color: #fff;
+    border: none;
+    margin: .5rem;
+    
+}
+
+.cadastroVeiculo-botaoCancelar{
+    background-color: #fff;
+    color: #DF5753;
+    border: 1px solid #DF5753;
+    margin: .5rem;
+}
+
+.cadastroVeiculo-inputContainer > div{
+    display: flex;
+    flex-flow: column;
+}
+
+.cadastroVeiculo-inputContainer > div input{
+    width: 100%;
+}
+
+@media (min-width: 427px){
+    .cadastroVeiculo-cadastroContainer{
+        margin: 40px;
+    }
+}
+
+@media (min-width: 551px){
+    .cadastroVeiculo-inputContainer > div{
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    .cadastroVeiculo-inputContainer > div input{
+        width: 48%;
+    }
+}
+
+@media (min-width: 834px) {
+    main{
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        grid-template-rows: auto;
+    }
+
+    .cadastroVeículo-opcoesCadastro{
+        grid-area: 1/1/2/2;
+    }
+    
+    .cadastroVeiculo-cadastroContainer{
+        grid-area: 1/2/2/3;
+    }
+}
+
+@media (min-width: 941px){
+    .cadastroVeiculo-buttonContainer{
+        position: absolute;
+        right: 1.5rem;
+        bottom: 1.5rem;
+    }
+}
+
+
+
