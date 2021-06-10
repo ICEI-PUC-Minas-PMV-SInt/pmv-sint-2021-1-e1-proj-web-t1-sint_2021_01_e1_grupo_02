@@ -23,12 +23,12 @@
                     <p>Carros elétricos costumam ser mais econômicos que carros a gasolina, etanol ou diesel, mas quanto mais econômicos?</p>
                     <p>Use a calculadora  e altere os valores sugeridos para descobrir os benefícios oferecidos ao trocar seu carro a combustão por um veículo elétrico.</p>
                     
-                    <a href="./Pages/Calculadora.html" class="index-buttonContainer">
+                    <div class="index-buttonContainer">
                         <button type="button" class="index-button">Inicie Agora</button>
                         <div>
                             <img src="./Public/img/seta.svg">
                         </div>
-                    </a>
+                    </div>
                 </div>
 
                 <div class="col-xl-6">
@@ -40,5 +40,39 @@
         <footer class="template-footer">
             <p>© {2020} EletriCharge. All Rights Reserved. Powered by EletriCHarge</p>
         </footer>
+
+
+        <div class="modal" tabindex="-1" id="myModal">
+            <div class="modal-dialog modal-dialog-centered modal-fade-transform modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Calculadora</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Nossa calculadora conta com duas opções. Para realizar os cálculos  utilizando dados customizados, escolha a opção “Informações personalizadas”. Caso contrário, fornecemos uma lista de veículos elétricos previamente cadastrados, possibilitando a comparação do veículo escolhido com o seu veículo a combustão!
+                </div>
+                <div class="modal-footer">
+                    <a href="./Pages/Calculadora.html" class="index-buttonContainer botaoModal">
+                        <button type="button" class="index-button">Informações personalizadas</button>
+                        <div>
+                            <img src="./Public/img/seta.svg">
+                        </div>
+                    </a>
+
+                    <a href="./Pages/Calculadora.html" class="index-buttonContainer botaoModal">
+                        <button type="button" class="index-button">Veículos cadastrados</button>
+                        <div>
+                            <img src="./Public/img/seta.svg">
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="js/home.js" type="text/javascript"></script>
     </body>
 </html>
