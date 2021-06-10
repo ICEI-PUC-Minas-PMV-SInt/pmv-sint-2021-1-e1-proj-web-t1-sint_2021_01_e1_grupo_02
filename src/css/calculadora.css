@@ -23,6 +23,27 @@ section{
 	margin: auto 10%;
 }
 
+/* Frase contendo o input de quilometragem */
+.calculadora-inputKmContainer{
+	margin: 1.5em 10%;
+	font-size: 14px;
+}
+
+.calculadora-inputKm{
+	width: 55px;
+	height: 35px;
+	border-radius: 10px;
+	border: 1px solid #E1E1E1;
+	color: #9E9E9E;
+	padding: 0 5px;
+	margin: 2px 3px;
+}
+
+.calculadora-inputKm::placeholder{
+	font-size: 13px;
+	color: #9E9E9E;
+}
+
 
 /* Alterando o display flex column para organizar os inputs */
 .calculadora-flexColumnContainer{
@@ -31,18 +52,29 @@ section{
 	align-items: center;
 }
 
-.calculadora-input{
-	height: 50px;
+.calculadora-subtitulo{
+	font-weight: 600;
+	font-size: 16px;
+	color: #263238;
+	margin: 1em auto;
+}
+
+.calculadora-select, .calculadora-input{
 	width: 400px;
+	height: 50px;
+	margin: 10px 0;
 	border-radius: 10px;
 	border: 1px solid #E1E1E1;
-	margin: 10px 0;
 	padding-left: 15px;
 	color: #9E9E9E;
 }
 
+.calculadora-select{
+	margin-right: 25.6px;
+}
+
 /* Destacando o input quando estiver em foco */
-.calculadora-input:focus{
+.calculadora-input:focus, .calculadora-inputKm:focus, .calculadora-select:focus{
 	outline: none;
 	box-shadow: 0 0 0 1.5px #E1E1E1;
 }
@@ -51,31 +83,17 @@ section{
 	color: #9E9E9E;
 }
 
-.calculadora-km{
-	display: flex;
-	justify-content: space-between;
-}
-
-.calculadora-km input{
-	width: 45%;
-}
-
-.calculadora-km input::placeholder{
-	font-size: 15px;
-}
-
-.calculadora-span{
-	font-size: 18px;
-	line-height: 25px;
-	letter-spacing: -0.015em;
-	color: #407BFF;
-	margin-top: 50px;
+.calculadora-iconeInfo{
+	margin: auto 2px;
+	cursor: pointer;
+	width: 20px;
 }
 
 /* A classe .correcao-buttonContainer tem a finalidade de corrigir posições e larguras da classe .index-buttonContainer */
 
 .correcao-buttonContainer{
     width: 70vw;
+	margin: 3em auto;
 }
 
 .correcao-buttonContainer button{
@@ -131,6 +149,13 @@ section{
 @media (max-width: 1200px){
 	section .calculadora-flexColumnContainer:nth-child(2){
 		margin-top: 80px;
+	}
+}
+
+/* Ajustando a margem da frase contendo input Km */
+@media (min-width: 1200px){
+	.calculadora-inputKmContainer{
+		margin-left: 17%;
 	}
 }
 
