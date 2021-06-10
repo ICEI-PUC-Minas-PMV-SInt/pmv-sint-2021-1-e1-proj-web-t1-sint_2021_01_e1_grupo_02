@@ -2,7 +2,7 @@
 
 /* Grid Layout do template base */
 
-body{
+.template-grid{
     display: grid;
     grid-template-rows: 70px minmax(85.5vh, 1fr) auto;
     overflow: auto;
@@ -66,7 +66,7 @@ body{
 /* Alterando o comprimento da linha do footer para 25px */
 
 @media (min-width: 410px){
-    body{
+    .template-grid{
         grid-template-rows: 70px minmax(85.5vh, 1fr) 25px;
     }
 }
