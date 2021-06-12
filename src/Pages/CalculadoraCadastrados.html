@@ -20,7 +20,7 @@
         <main class="container template-main">
             <section class="container-fluid">
                 <h1 class="calculadora-titulo">Veículo elétrico vs Combustão</h1>
-                <p class="calculadora-texto">Para fazer o cálculo, utilizaremos os números abaixo. Vamos considerar o consumo de combustível de cada veículo, o preço do litro do combustível e o do kWh (quilowatt/hora) de eletricidade.</p>
+                <p class="calculadora-texto">Para fazer o cálculo, utilizaremos os informações abaixo. Escolha o veículo elétrico desejado e insira as informações solicitadas do seu veículo a combustão. Vamos considerar o preço do litro do combustível e o do kWh (quilowatt/hora) de eletricidade local. Como opcional, insira o valor do seu veículo para descobrir em quantos meses a diferença de valor é paga com a economia de um carro elétrico!</p>
             </section>
 
             <p class="calculadora-inputKmContainer">
@@ -37,8 +37,9 @@
                     
                     <div>
                         <select id="lista-carrosEletricos" class="calculadora-select">
-                            <option>Selecione o veículo</option>
+                            <option>Selecione o veículo elétrico</option>
                         </select>
+                        <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
                     </div>
 
                     <div>
@@ -51,7 +52,9 @@
                     <h4 class="calculadora-subtitulo">Veículo a combustão</h4>
                     
                     <div>
-                        <input type="number" id="consumo-gasolina" placeholder="Eficiência do carro a combustão (km/l)" class="calculadora-input">
+                        <select id="lista-carrosCombustao" class="calculadora-select">
+                            <option>Selecione o veículo a combustão</option>
+                        </select>
                         <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
                     </div>
 
@@ -59,20 +62,10 @@
                         <input type="number" id="preco-gasolina" placeholder="Preço do combustível local" class="calculadora-input">
                         <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
                     </div>
-
-                    <div>
-                        <input type="number" id="valor-carroCombustao" placeholder="Valor de aquisição do carro a combustão" class="calculadora-input">
-                        <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
-                    </div>
                 </div>
-            </section>
 
-            <div class="container-fluid index-buttonContainer correcao-buttonContainer">
-                <button type="button" class="index-button">Calcular</button>
-                <div>
-                    <img src="../Public/img/seta.svg">  	
-                </div>  
-            </div>
+                <button type="button" class="index-button correcao-button">Calcular</button>
+            </section>
         </main>
 
         <footer class="template-footer">

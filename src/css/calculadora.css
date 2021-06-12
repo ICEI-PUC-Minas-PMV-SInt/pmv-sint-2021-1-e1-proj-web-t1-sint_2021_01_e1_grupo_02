@@ -69,10 +69,6 @@ section{
 	color: #9E9E9E;
 }
 
-.calculadora-select{
-	margin-right: 25.6px;
-}
-
 /* Destacando o input quando estiver em foco */
 .calculadora-input:focus, .calculadora-inputKm:focus, .calculadora-select:focus{
 	outline: none;
@@ -91,64 +87,15 @@ section{
 
 /* A classe .correcao-buttonContainer tem a finalidade de corrigir posições e larguras da classe .index-buttonContainer */
 
-.correcao-buttonContainer{
-    width: 70vw;
-	margin: 3em auto;
+.correcao-button{
+	margin: 4em auto;
 }
 
-.correcao-buttonContainer button{
-    width: 56vw;
-}
-
-/* Div com a seta '>' */
-
-.correcao-buttonContainer div{
-    width: 20vw; 
-}
-
-/* Ajuste da posição e tamanho da '>' */
-
-.correcao-buttonContainer img{
-    right: 3vw; 
-}
-
-/* Ajustando o tamanho do botão 'CALCULAR' para tamanhos de tela maiores que 576px */
-
-@media (min-width: 576px){
-    .correcao-buttonContainer{
-        width: 65vw;
-    }
-
-	.correcao-buttonContainer button{
-		width: 55vw; 
-	}
-}
-
-/* Ajustando o tamanho do botão 'CALCULAR' para tamanhos de tela maiores que 768px */
-
-@media (min-width: 768px){
-    .correcao-buttonContainer{
-        right: 25px; 
-		width: 500px;
-    }
-
-	.correcao-buttonContainer button{
-		width: 400px; 
-	}
-
-	.correcao-buttonContainer div{
-        width: 70px;
-    }
-
-	.index-buttonContainer img{
-        right: 20px;
-    }
-}
 
 /* Aumentando a separação dos containers dos inputs quando mudam de 2 para 1 coluna */
 @media (max-width: 1200px){
 	section .calculadora-flexColumnContainer:nth-child(2){
-		margin-top: 80px;
+		margin-top: 100px;
 	}
 }
 
@@ -157,6 +104,11 @@ section{
 	.calculadora-inputKmContainer{
 		margin-left: 17%;
 	}
+
+	.correcao-button{
+		width: 400px;
+	}
+	
 }
 
 
