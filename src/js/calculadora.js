@@ -45,25 +45,17 @@ function calcularEconomia() {
     })
 }
 
-function calcularKmAnual() {
+function calcularKmTotal() {
     //Criando referencias com os inputs 'km'
-    let kmSemanaCombustao = document.getElementById('kmSemanaCombustao').value;
-    let kmFdsCombustao = document.getElementById('kmFimDeSemanaCombustao').value;
-    let kmSemanaEletrico = document.getElementById('kmSemanaEletrico').value;
-    let kmFdsEletrico = document.getElementById('kmFimDeSemanaEletrico').value;
+    let kmSemana = document.getElementById('kmSemana').value;
+    let kmFds = document.getElementById('kmFimDeSemana').value;
 
     //Levando em consideração 52 semanas no ano, sem contar feriados
     const diasUteis = 260;
     const diasFds = 104;
 
     //Calculando quilometragem total no ano
-    let kmTotalCombustao = (kmSemanaCombustao * diasUteis) + (kmFdsCombustao * diasFds);
-    let kmTotalEletrico = (kmSemanaEletrico * diasUteis) + (kmFdsEletrico * diasFds);
-
-    const kmTotal = {
-        veiculoCombustao: kmTotalCombustao,
-        veiculoEletrico: kmTotalEletrico
-    }
+    let kmTotal = (kmSemana * diasUteis) + (kmFds * diasFds);
 
     return kmTotal;
 }
@@ -73,10 +65,10 @@ function calcularGastoAnualGasolina() {
     let consumoGasolina = document.getElementById('consumo-gasolina').value;
     let precoGasolina = document.getElementById('preco-gasolina').value;
 
-    let KmAnualCombustao = calcularKmAnual().veiculoCombustao;
+    let KmAnual = calcularKmTotal();
 
     //Calculando quantidade de litros de gasolina consumidos em um ano
-    let litrosGasolinaAnual = KmAnualCombustao/consumoGasolina;
+    let litrosGasolinaAnual = KmAnual/consumoGasolina;
     
     //Calculando gasto em R$ de gasolina em um ano
     let gastoAnualGasolina = litrosGasolinaAnual * precoGasolina;
@@ -89,10 +81,10 @@ function calcularGastoAnual_kWh() {
     let consumoEletricidade = document.getElementById('consumo-eletricidade').value;
     let preco_kWh = document.getElementById('preco-kWh').value;
 
-    let KmAnualEletrico = calcularKmAnual().veiculoEletrico;
+    let KmAnual = calcularKmTotal();
 
     //Calculando quantidade de kWh consumidos em um ano
-    let kWhAnual = KmAnualEletrico/consumoEletricidade;
+    let kWhAnual = KmAnual/consumoEletricidade;
     
     //Calculando gasto em R$ de kWh em um ano
     let gastoAnual_kWh = kWhAnual * preco_kWh;
