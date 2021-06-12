@@ -39,48 +39,21 @@ html{
     margin: 10px 30px 10px 0;
 }
 
-/* Estilização do container que contém o botão e a div '>' */
-
-.index-buttonContainer{
-    position: relative;
-    margin-top: 35px;
-    width: 50vw;
-    cursor: pointer;
-    text-decoration: none;
-}
 
 /* Estilização do botão 'INICIE AGORA */
 
 .index-button{
     height: 50px;
-    width: 41.8vw;
+    width: 60vw;
     background-color: #191970;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     color: #fff;
     text-transform: uppercase;
+    margin-top: 50px;
 }
 
-/* Div com a seta '>' */
-
-.index-buttonContainer div{
-    position: absolute;
-    top: 0px;
-    right: 1.8vw;
-    width: 8vw;
-    height: 50px;
-    background-color: rgba(25, 25, 112, .5);
-    border-radius: 0px 10px 10px 0px;
-}
-
-/* Ajuste da posição e tamanho da '>' */
-
-.index-buttonContainer img{
-    position: absolute;
-    right: 2.5vw;
-    margin: 12.5px auto;
-}
 
 /* Centralizando a imagem do carro */
 
@@ -93,41 +66,16 @@ html{
 /* Ajustando o tamanho do botão 'INICIE AGORA' para tamanhos de tela maiores que 576px */
 
 @media (min-width: 576px){
-    .index-buttonContainer{
-        width: 50vw;
-    }
-
     .index-button{
-        width: 42.5vw;
-    }
-    
-    .index-buttonContainer div{
-        right: .8vw;
-        width: 8vw;
+        width: 50vw;
     }
 }
 
 /* Ajustando o tamanho do botão 'INICIE AGORA' para tamanhos de tela maiores que 768px */
 
 @media (min-width: 768px){
-    .index-buttonContainer{
-        display: flex;
-        justify-content: center;
-        right: 50px;
-        width: 500px;
-    }
-
     .index-button{
         width: 400px;
-    }
-    
-    .index-buttonContainer div{
-        right: 0px;
-        Width: 70px;
-    }
-
-    .index-buttonContainer img{
-        right: 20px;
     }
 }
 
@@ -186,55 +134,17 @@ html{
 }
 
 .modal-body{
-    margin: 30px 25px 20px 25px;
+    margin: 30px 25px 0px 25px;
     color: #9E9E9E;
+    text-align: center;
 }
 
 .modal-footer{
     display: flex;
-    justify-content: space-around;
-}
-
-.botaoModal{
-    width: 45%;
-    margin: 50px 15px;
+    flex-flow: column;
 }
 
 .botaoModal button{
-    width: 70%;
-    font-size: 12px;
-    z-index: 1;
-}
-
-.botaoModal div{
-    width: 40%;
-}
-
-@media (max-width: 991.9px){
-    .modal-footer{
-        flex-flow: column;
-    }
-
-    .botaoModal{
-        width: 90%;
-        margin: 20px 0px;
-    }
-
-    .botaoModal button{
-        width: 85%;
-    }
-    
-    .botaoModal div{
-        width: 20%;
-    }
-}
-
-@media (min-width: 768px) and  (max-width: 991.9px){
-    .botaoModal{
-        margin-left: 55px;
-    }
-
-    .botaoModal button{
-        width: 80%;
-    }
+    font-size: 14px;
+    margin: 10px auto;
 }
