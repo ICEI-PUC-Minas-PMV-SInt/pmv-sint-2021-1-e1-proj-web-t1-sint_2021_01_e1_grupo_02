@@ -14,14 +14,12 @@
         <header class="template-header">
             <nav class="navbar template-navbar">
                 <a href="../index.html"><img src="../Public/img/EletriCharge.svg" alt="Logotipo EletriCharge" class="template-logo"></a>
-                <a href="../Pages/Login.html"><img src="../Public/img/icone-config.svg" alt="Ícone de configurações" class="template-config"></a>
             </nav>
         </header>
         
         <main class="template-main">
             <div class="cadastroVeiculo-opcoesCadastro">
                 <a href="./CadastroVeiculo.html" id="linkVeiculo">Veículos</a>
-                <a href="./CadastroUsuario.html" id="linkUsuario">Usuários</a>
             </div>
 
             <div class="cadastroVeiculo-opcoesVeiculoContainer">
@@ -35,24 +33,19 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="cadastroVeiculo-inputContainer">
-                            <input title="text" name="name" placeholder="Nome do Veículo" autofocus>
-                            <input title="text" name="categoria" placeholder="Categoria">
-                            <input title="text" name="consumo-medio" placeholder="Consumo médio">
-                            <input title="text" name="preco" placeholder="Preço">
-                            <button type="image" class="cadastroVeiculo-imagem">Adicionar imagem</button>
-                            <p class="imagem-descricaoimagem">As imagens devem ser JPG ou PNG e não devem ultrapassar 5 mb</p>
+                            <input title="text" name="name"  id="nome" class="inputVeiculo" placeholder="Nome do Veículo" autofocus>
+                              <select class="form-select"  id="categoria" aria-label="Default select example">
+                                <option selected value="eletrico">Elétrico</option>
+                                <option value="combustao">Combustão</option>
+                                <option value="hibrido">Híbrido</option>
+                              </select>
+                            <input title="text" type="number" name="consumo-medio" inputmode="decimal" id ="consumo-medio" class="inputVeiculo" placeholder="Consumo médio">
+                            <input title="text" name="preco" type="number" inputmode="decimal"  id="preco" class="inputVeiculo" placeholder="Preço">
                         </div>
                     </div>
 
                     <div class="col-sm-6">
                           <div class="flex-container">
-                                <div class="flex-itemcontainer-foto">
-                                    <img src="../Public/img/foto1.svg" alt="" class="template-veiculo">
-                                    <img src="../Public/img/foto2.svg" alt="" class="template-veiculo">
-                                    <img src="../Public/img/foto3.svg" alt="" class="template-veiculo">
-                                    <img src="../Public/img/foto4.svg" alt="" class="template-veiculo">
-                                </div>
-
                                 <div class="flex-itemcontainer-texto">
                                     <textarea name="descriçao" id="descricao" placeholder="Descrição" rows="8"></textarea>
                                 </div>
@@ -63,8 +56,8 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="cadastroVeiculo-buttonContainer">
-                            <button type="reset" class="cadastroVeiculo-botaoCancelar">Cancelar</button>
-                            <button type="submit" class="cadastroVeiculo-botaoCadastrar">Cadastrar</button>
+                            <button type="reset" class="cadastroVeiculo-botaoCancelar" onclick =limpar()>Cancelar</button>
+                            <button type="submit" class="cadastroVeiculo-botaoCadastrar" onclick =registrarVeiculo()>Cadastrar</button>
                         </div>
                     </div>
                   </div>
