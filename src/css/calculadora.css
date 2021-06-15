@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	color: #9E9E9E;
@@ -104,11 +106,6 @@ section{
 	.calculadora-inputKmContainer{
 		margin-left: 17%;
 	}
-
-	.correcao-button{
-		width: 80%;
-	}
-	
 }
 
 
@@ -172,6 +169,7 @@ section{
 }
 
 .btn:hover{
-	background-color: rgba(25, 25, 112, .8);
+	background-color: rgba(25, 25, 112, .95);
 }
+
 

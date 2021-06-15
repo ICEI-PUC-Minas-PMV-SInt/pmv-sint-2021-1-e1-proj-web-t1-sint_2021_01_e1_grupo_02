@@ -54,6 +54,14 @@ html{
     margin-top: 50px;
 }
 
+.index-button:focus{
+    outline: none;
+    border: 1.5px solid #000000;
+}
+
+.index-button:hover{
+    background-color: rgba(25, 25, 112, .95);
+}
 
 /* Centralizando a imagem do carro */
 
