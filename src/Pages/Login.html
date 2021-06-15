@@ -18,7 +18,7 @@
         </header>
 
         <main class="container template-main">
-            <section class="row login-section">
+            <section class="row">
                 <div class="col-xl-6 login-coluna1">
                     <h1>Carros elétricos a Evolução</h1>
                     <p>Ajudamos a montar o mundo.</p>
@@ -33,20 +33,20 @@
 
                    <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label"></label>
-                        <input type="email" class="form-control email" id="exampleFormControlInput1" placeholder="E-mail">
+                        <input type="email" class="login-input email" id="exampleFormControlInput1" placeholder="E-mail">
                         <label for="exampleFormControlInput1" class="form-label"></label>
-                        <input type="password" class="form-control senha" id="exampleFormControlInput1"  placeholder="Senha">
-                        <a href="">Esqueci a Senha?</a>
-                        <div class="login-buttonContainer">
-                            <button type="button" class="login-button" onclick =logar()><a href="#">Logar</a></button>
-                        <div>
+                        <input type="password" class="login-input senha" id="exampleFormControlInput1"  placeholder="Senha">
+                        <a class="login-esqueciSenha" href="">Esqueci a senha?</a>
+                        <a href="#" >
+                            <button type="button" class="login-button" onclick=logar()>Logar</button>
+                        </a>
+                    </div>
+
+                    <div class="login-cadastroContainer">
+                        <p class="login-cadastro">Não tem cadastro?</p>
+                        <a href="./CadastroUsuario.html" class="cadastrar-usuario">Cadastrar</a>
                     </div>
                 </div>
-                <div class="cadastro">
-                    <p class="login-cadastro">Não tem cadastro?</p>
-                    <a href="./CadastroUsuario.html" class="cadastrar-usuario">CADASTRAR</a>
-                </div>
-                
             </section>  
         </main>
         <footer class="template-footer">

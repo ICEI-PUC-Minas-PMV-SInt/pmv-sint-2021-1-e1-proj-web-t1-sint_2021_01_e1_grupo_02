@@ -6,19 +6,16 @@
 
 body{
     background-image: url("../../src/Public/img/fundo.jpeg");
-}
-
-.login-section{
-    position: relative;
+    background-size: cover;
+    background-position: left;
+    font-family: 'Open Sans';
 }
 
 .login-coluna1{
     display: flex;
     flex-flow: column;
-    padding: 0 70px;
-    margin-top: 20px;
+    margin: 50px auto;
 }
-
 
 .login-coluna1 h1{
     font-size: 45px;
@@ -33,135 +30,114 @@ body{
     line-height: 25px;
     letter-spacing: -0.015em;
     color: #9E9E9E;
-    margin: 10px 30px 10px 0;
+    margin: 15px 30px 30px 0;
+}
+
+.img-Group{
+    position: relative;
+    right: 40px;
 }
 
 .login-coluna2{
-    position: absolute;
-    width: 400px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     height: 530px;
-    left: 580px;
     background: #FFFFFF;
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
-    bottom: 45px;
+    margin: 50px auto;
 }
 
 h4{
-    padding-left: 90px;
-    width: 400px;
-    height: 67px;
-    margin: 35px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
+    margin: 35px auto;
     color: #263238;
     font-size: 40px;
     line-height: 65px;
 }
 
-.login-buttonContainer{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    right: 80px;
-    margin-top: 45px;
-    width: 500px;
-    cursor: pointer;
+.login-input{
+    width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid #E1E1E1;
+	padding-left: 15px;
+	color: #9E9E9E;
+}
+
+.login-input:focus{
+	outline: none;
+	box-shadow: 0 0 0 1.5px #E1E1E1;
+}
+
+.login-input::placeholder{
+	color: #9E9E9E;
+}
+
+.login-esqueciSenha{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 10px; 
 }
 
 .login-button{
     height: 50px;
-    width: 300px;
+    width: 100%;
     background-color: #191970;
     border: 1px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-}
-
-.login-button a{
-    text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-}
-
-
-.login-buttonContainer div{
-    position: absolute;
-    top: 0px;
-    right: 60px;
-    width: 62px;
-    height: 50px;
-    background-color: rgba(25, 25, 112, .5);
-    border-radius: 0px 10px 10px 0px;
-    Width: 70px;
+    margin-top: 50px;
 } 
 
-
-.login-buttonContainer img{
-    position: absolute;
-    right: 20px;
-    margin: 12.5px auto;
+.login-cadastroContainer{
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
 }
-
-
-
-.login-img{
-    margin: 50px 0;
-}
-
 
 .login-cadastro{
-    position: static;
-    left: 10.92%;
-    right: 19.79%;
-    top: 329px;
-    bottom: 5%;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.015em;
     color: #9E9E9E;
-    margin: 50px;
+    font-weight: 600;
+    margin-right: 8px;
 }
 
 .cadastrar-usuario {
-    position: absolute;
-    left: 250px;
-    top: 430.5px;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: center;
-    letter-spacing: -0.015em;
-    text-decoration-line: underline;
+    text-decoration: underline;
     color: #407BFF;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
+@media (max-width: 576px){
+    .login-coluna1{
+        width: 80vw;
+    }
+
+    .login-coluna2{
+        width: 80vw;
+    }
+}
+
+@media (min-width: 576px){
+    .login-coluna1{
+        padding: 0 70px;
+    }
+
+    .login-coluna2{
+        width: 400px;
+    }
+}
 
 @media (min-width: 1200px){
-    .login-section{
-        transform: translateY(20%);
-    }
 
     .login-coluna1{
-        position: relative;
-        bottom: 70px;
-        margin-top: 0;
-    }
-}
-
-
-@media (min-width: 1400px){
-    .login-coluna1 h1{
-        padding-right: 70px;
+        margin-top: 20px;
     }
 
-    .login-coluna1 p{
-        padding-right: 90px;
+    .login-coluna2{
+        margin: 17px auto auto 130px;
     }
 }
