@@ -43,7 +43,7 @@ main{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 20px;
     padding: 3rem 2rem;
-    margin: 40px 25px;
+    margin: 40px 5px;
 }
 
 .cadastroVeiculo-opcoesVeiculoContainer h1{
@@ -89,6 +89,7 @@ main{
     width: 80%;
     resize: none;
     padding-left: 1rem;
+    margin-top: 11px;
 }
 
 .imagem-descricaoimagem{
@@ -134,22 +135,24 @@ button{
 }
 
 @media (min-width: 427px){
-    .cadastroVeiculo-cadastroContainer{
+    .cadastroVeiculo-opcoesVeiculoContainer{
         margin: 40px;
     }
 }
 
 @media (min-width: 551px){
-    .cadastroVeiculo-inputContainer > div{
+    .cadastroVeiculo-opcoesVeiculoContainer > div{
         flex-flow: row;
         justify-content: space-between;
     }
 
-    .cadastroVeiculo-inputContainer > div input{
+    .cadastroVeiculo-opcoesVeiculoContainer > div input{
         width: 48%;
     }
 }
-
+.inputVeiculo{
+    width: 100% !important;
+}
 @media (min-width: 834px) {
     main{
         display: grid;
@@ -157,11 +160,11 @@ button{
         grid-template-rows: auto;
     }
 
-    .cadastroVeículo-opcoesCadastro{
+    .cadastroVeiculo-inputContainer{
         grid-area: 1/1/2/2;
     }
     
-    .cadastroVeiculo-cadastroContainer{
+    .cadastroVeiculo-opcoesVeiculoContainer{
         grid-area: 1/2/2/3;
     }
 }
@@ -173,6 +176,3 @@ button{
         bottom: 1.5rem;
     }
 }
-
-
-

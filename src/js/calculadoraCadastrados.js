@@ -1,3 +1,4 @@
+var localStorage = Window.localStorage; 
 //Criando um Modal
 let myModal = new bootstrap.Modal(document.getElementById('myModal'));
 
@@ -44,8 +45,12 @@ function calcularKmTotal() {
 }
 
 function calcularGastoAnualGasolina() {
+    let idVeiculo = document.getElementById('lista-carrosCombustao').value;
+    let veiculo = JSON.parse(localStorage.getItem(idVeiculo));
+    console.log(idVeiculo);
+    console.log(veiculo);
     //Criando referencia com os inputs (km/l) e preço da gasolina
-    let consumoGasolina = document.getElementById('consumo-gasolina').value;
+    let consumoGasolina = veiculo.consumoMedio;
     let precoGasolina = document.getElementById('preco-gasolina').value;
 
     let kmAnual = calcularKmTotal();
@@ -63,8 +68,10 @@ function calcularGastoAnualGasolina() {
 }
 
 function calcularGastoAnual_kWh() {
+    let idVeiculo = document.getElementById('lista-carrosEletricos').value;
+    let veiculo = JSON.parse(localStorage.getItem(idVeiculo));
     //Criando referencia com os inputs (km/kWh) e preço do kWh
-    let consumoEletricidade = document.getElementById('consumo-eletricidade').value;
+    let consumoEletricidade = veiculo.consumoMedio;
     let preco_kWh = document.getElementById('preco-kWh').value;
 
     let kmAnual = calcularKmTotal();
@@ -82,8 +89,12 @@ function calcularGastoAnual_kWh() {
 }
 
 function calcularBuyback(gasto_kWh, gastoGasolina) {
-    let valorVeiculoEletrico = document.getElementById('valor-carroEletrico').value;
-    let valorVeiculoCombustao = document.getElementById('valor-carroCombustao').value;
+    let idVeiculoEletrico = document.getElementById('lista-carrosEletricos').value;
+    let veiculoEletrico = JSON.parse(localStorage.getItem(idVeiculoEletrico));
+    let idVeiculo = document.getElementById('lista-carrosEletricos').value;
+    let veiculo = JSON.parse(localStorage.getItem(idVeiculo));
+    let valorVeiculoEletrico = veiculoEletrico.preco;
+    let valorVeiculoCombustao = veiculo.preco;
 
     let diferenca = valorVeiculoEletrico - valorVeiculoCombustao;
 
