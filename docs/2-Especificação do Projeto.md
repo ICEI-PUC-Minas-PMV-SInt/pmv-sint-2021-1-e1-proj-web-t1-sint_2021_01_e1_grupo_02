@@ -113,20 +113,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
+|RF-001| Permitir que o Administrador cadastre tarefas | BAIXA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
 |RF-004| Cada campo do formulário deve validar o tipo de dado | ALTA |
 |RF-005| Permitir que o usuário escolha o modelo do veículo entre as opções cadastradas | ALTA |
-|RF-006| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | ALTA |
-|RF-007| Efetuar Logoff no sistema | ALTA |
+|RF-006| Ao final do cálculo, oferecer opção para o usuário compartilhar o resultado | MÉDIA |
+|RF-007| Permitir que o administrador efetue Logoff no sistema | ALTA |
 |RF-008| Permitir que o administrador realize o cadastro de veículos | ALTA |
-|RF-009| Realizar cadastro de usuários | ALTA |
-|RF-010| Efetuar Logon no Sistema | ALTA |
+|RF-009| Permitir que o administrador realize o cadastro de usuários | ALTA |
+|RF-010| Permitir que o administrador efetue Logon no sistema | ALTA |
 |RF-011| Realizar os cálculos necessários para comparação da autonomia e custo beneficio entre carros elétricos x combustão | ALTA |
 |RF-012| Permitir recuperação de login| ALTA |
 |RF-013| Restrição de extensão do arquivo do upload de imagens| MÉDIA |
 |RF-014| Restrição de tamanho de arquivo do upload de imagens | MÉDIA |
 |RF-015| Permitir que o administrador formate o texto da descrição do cadastro | MÉDIA |
+|RF-016| Criar 3 alternativas de cálculo para escolha do usuario | ALTA |
+|RF-017| Criar o modal para exibição das alternativas de cálculo | ALTA |
+|RF-018| Realizar cálculo com informações personalizadas | ALTA |	
+|RF-019| Realizar cálculo com informações dos veículos cadastrados | ALTA |
+|RF-020| Realizar cálculo com informações do meu veículo vs carro elétrico | ALTA |
+|RF-021| Cada campo de formulário que possa gerar dúvida deve possuir um icone de ajuda | ALTA |
+
 
 
 ### Requisitos não Funcionais
