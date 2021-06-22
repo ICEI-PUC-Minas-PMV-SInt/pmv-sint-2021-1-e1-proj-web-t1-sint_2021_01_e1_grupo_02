@@ -21,7 +21,7 @@ A seguir, encontram-se os protótipos utilizados para o desenvolvimento das inte
 
 ![Exemplo de Cadastro veículo](img/cadastroVeiculo_inicio.png)
 
-![Exemplo de Cadastro veículo elétrico](img/cadstroVeiculoEletrico.png)
+![Exemplo de Cadastro veículo elétrico](img/cadastroVeiculoEletrico.png)
 
 ![Exemplo de Cadastro veículo a combustão](img/cadastroVeiculoCombustao.png)
 
