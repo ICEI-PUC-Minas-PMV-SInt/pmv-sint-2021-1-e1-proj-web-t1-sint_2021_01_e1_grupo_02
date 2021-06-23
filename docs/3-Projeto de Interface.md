@@ -35,6 +35,6 @@ A seguir, encontram-se os protótipos utilizados para o desenvolvimento das inte
 
 ![Exemplo da calculadora meu veículo vs elétrico](img/calculadoraOpcao3.png)
 
-![Exemplo da calculadora com veículo elétrico selecionado](img/calculadoraOpcao3_selecaoCarros.png)
+![Exemplo da calculadora com veículo elétrico selecionado](img/calculadoraOpcao3_selecaoCarro.png)
 
 ![Exemplo do modal dos resultados](img/modalResultados.png)

@@ -164,6 +164,7 @@ function renderizarModal(economiaAnual, kmAnual, consumo_kWh, gasto_kWh, consumo
         modalBody.innerText = '';
      })
 }
+
 function carregarVeiculos(){
     var select = document.getElementById("lista-carrosEletricos"); 
     var keys = Object.keys(localStorage);
@@ -189,5 +190,27 @@ function carregarVeiculos(){
             select.add(option);
         }
     });
+}
+
+
+//criando referencia para cada "div informaçoes" relacionados aos icones (?)
+let divInformacoesList = document.getElementsByClassName('informacoes');
+//criando referencia para cada icone (?) de informações
+let iconeInfoList = document.getElementsByClassName('calculadora-iconeInfo');
+//atribuindo evento click em cada iconeInfo e passando como parâmentro para a função a referência da divContainer pai de cada iconeInfo
+for (let i = 0; i < iconeInfoList.length; i++) {
+    iconeInfoList[i].addEventListener('click', function() {
+        renderizarInformacoesInput(divInformacoesList[i])
+    });
+}
+
+function renderizarInformacoesInput(divInfo) {
+    let atributoStyle = divInfo.getAttribute('style');
+    if(atributoStyle === 'display: block;'){
+        divInfo.style.display = 'none';
+    } else {
+        divInfo.style.display = 'block';
+    }
+
 }
     

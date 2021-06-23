@@ -39,33 +39,45 @@
                         <select id="lista-carrosEletricos" class="calculadora-select">
                             <option>Selecione o veículo elétrico</option>
                         </select>
-                        <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
                     </div>
 
-                    <div>
+                    <div class="calculadora-inputContainer">
                         <input type="number" id="preco-kWh" placeholder="Preço do kWh local" class="calculadora-input">
                         <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
+                        <div class="informacoes" style="display: none;">
+                            <p>Essa informação é encontrada na conta de energia elétrica da sua residência.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-xl-6 calculadora-flexColumnContainer">
                     <h4 class="calculadora-subtitulo">Veículo a combustão</h4>
                     
-                    <div>
+                    <div class="calculadora-inputContainer">
                         <input type="number" id="consumo-gasolina" placeholder="Eficiência do carro a combustão (km/l)" class="calculadora-input">
                         <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
+                        <div class="informacoes" style="display: none;">
+                            <p>É o calculo de km rodados / litros que são necessários para encher o tanque do veículo.</p>
+                        </div>
                     </div>
 
-                    <div>
+                    <div class="calculadora-inputContainer">
                         <input type="number" id="preco-gasolina" placeholder="Preço do combustível local" class="calculadora-input">
                         <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
+                        <div class="informacoes" style="display: none;">
+                            <p>Valor do combustível nos postos de sua região.</p>
+                        </div>
                     </div>
 
                     <h4 class="calculadora-subtitulo">Opcional</h4>
 
-                    <div>
+                    <div class="calculadora-inputContainer">
                         <input type="number" id="valor-carroCombustao" placeholder="Valor do veículo a combustão" class="calculadora-input">
                         <img src="../Public/img/icone-info.svg" alt="Ícone de informações" class="calculadora-iconeInfo">
+                        <div class="informacoes" style="display: none;">
+                            <p>Valor médio do veículo, tabela FIPE* ou informado pelo fabricante.</p>
+                            <p>*Principal referência no mercado de carros usados e seminovos</p>
+                        </div>
                     </div>
                 </div>
 
