@@ -20,11 +20,6 @@ function calcularEconomia() {
 
     let economiaAnual = gastoGasolina - gasto_kWh;
 
-    let _input = document.getElementsByTagName('input');
-    for(let i = 0; i < _input.length; i++) {
-        _input[i].value = null;
-    }
-
     renderizarModal(economiaAnual, kmAnual, consumo_kWh, gasto_kWh, consumoLitrosGasolina, gastoGasolina, buyback);
 }
 

@@ -104,7 +104,13 @@ section{
 /* Ajustando a margem da frase contendo input Km */
 @media (min-width: 1200px){
 	.calculadora-inputKmContainer{
-		margin-left: 17%;
+		margin-left: 13.5%;
+	}
+}
+
+@media (min-width: 1400px){
+	.calculadora-inputKmContainer{
+		margin-left: 18.5%;
 	}
 }
 
