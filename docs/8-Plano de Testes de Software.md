@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-Para o plano de teste, foi escolhido o cenário que demanda maior inserção de dados por parte do usuário e demanda mais código para capturar e tratar estas informações, no caso, o cálculo com as Informações Personalizadas. 
+Para o plano de teste, foi escolhido o cenário que demanda maior inserção de dados por parte do usuário e mais código para capturar e tratar estas informações, no caso, o cálculo com as Informações Personalizadas. 
 
 Abaixo, link para o documento referenciado:
 
